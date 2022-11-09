@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- Part of the code adopted from Jeff's bootstrap tutorial -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Iterative Design</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark justify-content-center align-items-center">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Responsive Redesign</a>
+        </div>
+    </nav>
+    
+    <!-- Introductory page -->
+    <div class="d-flex flex-column blankets justify-content-center align-items-center text-center">
+        <h1 class="display-1">Iterative Design</h1>
+        <br><br>
+        <h4>In this project, we designed an interactive interface for an emerging startup.</h4>
+        <h4>We mockups </h4>
+        <h4>Let's get started 👇👇 </h4>
+    </div>
+
+    <div class="container-fluid mb-5" id="sketch">
+        <div class="mb-4 text-center">
+            <h2 class="display-3">1. About the Startup & Our Initial Design</h2>
+        </div>
+        <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+            <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                <p class="lead">
+                    We chose to do our design based on the idea presented by <a href="http://">Dumme</a> (Big thanks to the founder!):
+                </p><br>
+                <p> 
+                    
+                </p>
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+            <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3">
+                <p class="lead">
+                    We brainstormed about the interface of Dumme and each created a set of sketches: 
+                </p><br>
+            </div>
+
+            <div class="col-12 col-xxl-6 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                <div id="carousel1" class="carousel carousel-dark slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/sketch11.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch12.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch13.png" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-12 col-xxl-6 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                <div id="carousel2" class="carousel carousel-dark slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/sketch41.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch42.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch43.png" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-12 col-xxl-6 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                <div id="carousel3" class="carousel carousel-dark slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/sketch21.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch22.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch23.png" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-12 col-xxl-6 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                <div id="carousel4" class="carousel carousel-dark slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/sketch31.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch32.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/sketch33.png" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-12 px-3 px-sm-5 pt-sm-5 ml-md-auto">
+                <p>Most of the sketches contain ... 
+                    <br>Combining ideas from these sketches, we determined the following low-fidelity design:</p>
+                </p><br>
+            </div>
+
+            <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                <div id="carouselLowfi" class="carousel carousel-dark slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/lofi1.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/lofi2.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/lofi3.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/lofi4.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/lofi5.png" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselLowfi" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselLowfi" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5" id="mockups">
+        <div class="mb-4 text-center">
+            <h2 class="display-3">2. Mockups</h2>
+        </div>
+        <div class="mb-4">
+            <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+                <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                    <h5 class="text-center">We built our interactive HiFi prototype and present it to a group of peers during the lab session. </h5>
+                    <h5 class="text-center"><br>Below is a summary of the helpful advice and suggestions we received:</h5>
+                    <div class="row align-items-center justify-content-center px-sm-5 mx-xl-5 pb-5">
+                        <p class="lead"><ul>
+                            <li>
+                                blah
+                            </li>
+                            <li>
+                                blah
+                            </li>
+                            <li>
+                                blah
+                            </li>
+                            <li>
+                                blah
+                            </li>
+                        </ul></p>
+                    </div>
+
+                    <h5 class="text-center"><br>And our <a href="https://github.com/">prototype(modified ver.)</a>, after ..., looks like: </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+            <div class="text-center col-12 mb-4">
+                <img src="./assets/images/lowfi-pc.png" class="photo mb-2" style="width: 60vw">
+                <p style="color:darkgrey">Lowfi wireframe for desktops</p>
+            </div>
+            <div class="text-center col-12 mb-4">
+                <img src="./assets/images/lowfi-tablet.png" class="photo mb-2" style="width: 55vw">
+                <p style="color:darkgrey">Lowfi wireframe for tablets</p>
+            </div>
+            <div class="text-center col-12 mb-4">
+                <img src="./assets/images/lowfi-phone.png" class="photo mb-2" style="width: 55vw">
+                <p style="color:darkgrey">Lowfi wireframe for phones</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5" id="mockups">
+        <div class="mb-4 text-center">
+            <h2 class="display-3">3. User Testing</h2>
+        </div>
+    </div>
+</body>
