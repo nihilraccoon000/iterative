@@ -21,7 +21,7 @@
         <h1 class="display-1">Iterative Design</h1>
         <br><br>
         <h4>In this project, we designed an interactive interface for an emerging startup.</h4>
-        <h4>We mockups </h4>
+        <h4>We did mockup crits with our peers, </h4>
         <h4>Let's get started 👇👇 </h4>
     </div>
 
@@ -29,13 +29,14 @@
         <div class="mb-4 text-center">
             <h2 class="display-3">1. About the Startup & Our Initial Design</h2>
         </div>
-        <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
-            <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+        <div class="row align-items-center justify-content-center py-3 px-3 px-sm-5 mx-xl-5">
+            <div class="col-12 px-3 px-sm-5 ml-md-auto">
                 <p class="lead">
-                    We chose to do our design based on the idea presented by <a href="http://">Dumme</a> (Big thanks to the founder!):
+                    We chose to do the interface design for the idea presented by <a href="https://dumme.com/tech/">Dumme</a> (Big thanks to the founder!):
                 </p><br>
-                <p> 
-                    
+                <p class="px-5"> 
+                    While videos are gradually becoming an significant part of content people consume daily, videos on the web are largely unindexed and unsearchable. 
+                    Dumme's goal is to index videos with cutting edge AI models, make finding info in video as easy as Cmd+F on a web page.
                 </p>
             </div>
         </div>
@@ -44,7 +45,7 @@
             <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3">
                 <p class="lead">
                     We brainstormed about the interface of Dumme and each created a set of sketches: 
-                </p><br>
+                </p>
             </div>
 
             <div class="col-12 col-xxl-6 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
@@ -164,12 +165,13 @@
             </div>
 
             <div class="col-12 px-3 px-sm-5 pt-sm-5 ml-md-auto">
-                <p>Most of the sketches contain ... 
-                    <br>Combining ideas from these sketches, we determined the following low-fidelity design:</p>
-                </p><br>
+                <p class="lead mb-3">
+                    Most of the sketches contain the basic homepage and a result page; for addtional pages, we suggested a upload video page, tutorial page, about page.
+                    <br><br>Combining ideas from these sketches, we made the low-fidelity design, consisting of 1) homepage (with a upload toggler), 2) tutorial page, 3) main page, 4) text result page: </p>
+                </p>
             </div>
 
-            <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+            <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5 mb-5">
                 <div id="carouselLowfi" class="carousel carousel-dark slide" data-bs-ride="true">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -205,52 +207,96 @@
         <div class="mb-4 text-center">
             <h2 class="display-3">2. Mockups</h2>
         </div>
-        <div class="mb-4">
-            <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
-                <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
-                    <h5 class="text-center">We built our interactive HiFi prototype and present it to a group of peers during the lab session. </h5>
-                    <h5 class="text-center"><br>Below is a summary of the helpful advice and suggestions we received:</h5>
-                    <div class="row align-items-center justify-content-center px-sm-5 mx-xl-5 pb-5">
-                        <p class="lead"><ul>
+        <div class="mb-5">
+            <div class="row align-items-center justify-content-center px-3 px-sm-5 mx-xl-5">
+                <div class="col-12 px-3 px-sm-5 ml-md-auto">
+                    <h4 class="text-center">We built our interactive HiFi prototype and presented it to a group of peers during the lab session. </h4>
+                    <h5><br>Summarizing the helpful advice and suggestions we received: </h5>
+                    <p>
+                        <ul style="color:#afafaf" class="px-5">
                             <li>
-                                blah
+                                Text in the navigation bar is too small
                             </li>
                             <li>
-                                blah
+                                The prompts are kind of confusing; usage of the yellow bars and the second search bars unclear; the origin of text result unclear
                             </li>
                             <li>
-                                blah
+                                Better add a back/undo button for each page
                             </li>
                             <li>
-                                blah
+                                Prompts on the tutorial page not intuitive for being clickable
                             </li>
-                        </ul></p>
+                        </ul>
+                    </p>
+                    <h5><br>Our reflection:</h5>
+                    <p style="color:#afafaf" class="px-5">Before modifying, we had our tutorial directly presented in our main function page. 
+                        What we had in mind was that "after clicking a keyword on the tutorial page, 
+                        we jump to the main function page, where the clicked keyword and a predetermined video link are auto-filled, 
+                        and the result is shown".
+                        <br>We thought such interaction flow would be enough to show the usage of the website. 
+                        However, many feedbacks we received seemed to stem from the tutorial not being intuitive enough (especially when it is just a prototype, where all the auto-filling cannot be shown).
+                        So we decided to add a separate tutorial page.
+                    </p>
+
+                    <h5><br><br>Our 
+                        <a href="https://www.figma.com/proto/gvdPOQgpYgjOFLw6XGamWb/Dumme?node-id=3%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A2">
+                            prototype(modified ver.)</a>, after enlarging the font size, adding a back button from the text result page, and adding the separate tutorial page with notations, looks like this: 
+                    </h5>
+                    <div class="text-center col-12 my-3 pb-5">
+                        <img src="./assets/images/hifi-overview.png" class="photo mb-2" style="width: 60vw">
+                        <p style="color:darkgrey" class="mb-5">Overview of the prototype</p>
                     </div>
-
-                    <h5 class="text-center"><br>And our <a href="https://github.com/">prototype(modified ver.)</a>, after ..., looks like: </h5>
                 </div>
-            </div>
-        </div>
-
-        <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
-            <div class="text-center col-12 mb-4">
-                <img src="./assets/images/lowfi-pc.png" class="photo mb-2" style="width: 60vw">
-                <p style="color:darkgrey">Lowfi wireframe for desktops</p>
-            </div>
-            <div class="text-center col-12 mb-4">
-                <img src="./assets/images/lowfi-tablet.png" class="photo mb-2" style="width: 55vw">
-                <p style="color:darkgrey">Lowfi wireframe for tablets</p>
-            </div>
-            <div class="text-center col-12 mb-4">
-                <img src="./assets/images/lowfi-phone.png" class="photo mb-2" style="width: 55vw">
-                <p style="color:darkgrey">Lowfi wireframe for phones</p>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid mb-5" id="mockups">
+    <div class="container-fluid mb-5" id="usertesting">
         <div class="mb-4 text-center">
             <h2 class="display-3">3. User Testing</h2>
+        </div>
+        <div class="mb-3">
+            <div class="row align-items-center justify-content-center px-3 px-sm-5 mx-xl-5">
+                <div class="col-12 px-3 px-sm-5 ml-md-auto">
+                    <h4 class="text-center">In the final step, we uploaded our modified prototype to <a href="">a user testing website</a>, gathering evaluations from real-world users.</h4>
+                    <h5><br><br>We gave the users the following instruction, and asked them to take as much time as needed to explore the interactions: </h5>
+                    <p class="px-5" style="color:#afafaf">Imagine you want to learn new concepts or find answers from a long podcast. It is hard to locate an accurate timing and write down the needed information by yourself. Now, with the support of the AI model of Dumme, you can simply upload the podcast and type your question, then you can get the exact timeline that the answers are located and accurately highlighted transcripts.</p>
+                    <h5><br>We also asked some followup questions:</h5>
+                    <p class="px-5" style="color:#afafaf">
+                            Without leaving the homepage, what are your initial impressions of the website? <br>
+                            What, if anything, is **missing** on this page? <br>
+                            What, if anything, do you **dislike** about this prototype? <br>
+                            Is the information on this page helpful?
+                </div>
+            </div>
+
+            <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+                <div class="col-12 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                    <h5><br> We got feedbacks from 3 users (You can find the videos of them interacting with the prototype below). They made the following suggestions:</h5>
+                    <p>
+                        <ul style="color:#afafaf" class="px-5">
+                            <li>Don't know what they can continue to do after the guide page</li>
+                            <li>The logo is confusing</li>
+                            <li>Unable to enter links and drag and drop videos</li>
+                            <li>No colors</li>
+                            <li>Text on the page is not helpful</li>
+                            <li>Page is too simple and not professional</li>
+                        </ul>
+                    </p>
+                    <p class="lead"><br>By observing the users' usage, we found that they didn't seem to understand what the site was for. 
+                    Because the concept of this site is relatively new, we may still need to find a better way to guide the users (e.g. by providing instructional videos and instructions that will pop up on hovering, to prompt the users on the corresponding usage methods)</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+                <iframe src="./vids/UserTestingB.mp4" title="Video from user 1" style="height:55vh"></iframe>
+            </div>
+            <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+                <iframe src="./vids/UserTestingC.mp4" title="Video from user 2" style="height:55vh"></iframe>
+            </div>
+            <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+                <iframe src="./vids/UserTestingD.mp4" title="Video from user 3" style="height:55vh"></iframe>
+            </div>
         </div>
     </div>
 </body>
